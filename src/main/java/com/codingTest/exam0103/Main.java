@@ -7,18 +7,14 @@ import java.io.InputStreamReader;
 public class Main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String[] arr = br.readLine().split(" ");
-		int max = 0;
 		String result = "";
+		int max = Integer.MIN_VALUE;
+		String[] arr = br.readLine().split(" ");
 		for (String s : arr) {
-			if(max == 0){
-				max = s.length();
-				result = s;
-			}else{
-				if(max < s.length()){
-					max = s.length();
-					result = s;
-				}
+			int len = s.length();
+			if(len > max){
+				max=len;
+				result=s;
 			}
 		}
 		System.out.println(result);
