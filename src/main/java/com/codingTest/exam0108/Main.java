@@ -12,21 +12,14 @@ public class Main {
 	}
 
 	public static String solution(String str){
-		String answer = "YES";
+		String answer = "NO";
+		str = str.toUpperCase().replaceAll("[^A-Z]", "");
+		String tmp = new StringBuilder(str).reverse().toString();
 
-		String match = "[^a-zA-Z]";
-		str = str.replaceAll(match, "");
-
-		//내가 푼거
-		str = str.toLowerCase();
-		StringBuilder sb = new StringBuilder(str);
-		String reverseStr = sb.reverse().toString();
-
-		if(str.equals(reverseStr)){
+		if(str.equals(tmp)){
 			answer = "YES";
-		}else{
-			answer = "NO";
 		}
+
 		return answer;
 	}
 }
