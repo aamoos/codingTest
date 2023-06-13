@@ -3,7 +3,7 @@ package com.codingTest.exam0101;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class Main2 {
 	public static void main(String[] args) throws IOException {
 
 		Scanner scan = new Scanner(System.in);
@@ -18,13 +18,12 @@ public class Main {
 		t = Character.toUpperCase(t);
 		//System.out.println(str+" "+t);
 
-		for(int i=0; i<str.length(); i++){
-			if(str.charAt(i) == t){
+		for (char x : str.toCharArray()) {
+			if(x == t){
 				answer++;
 			}
 		}
 
 		return answer;
 	}
-
 }
