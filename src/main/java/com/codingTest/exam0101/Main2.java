@@ -3,6 +3,7 @@ package com.codingTest.exam0101;
 import java.io.IOException;
 import java.util.Scanner;
 
+// 향상된 for문
 public class Main2 {
 	public static void main(String[] args) throws IOException {
 

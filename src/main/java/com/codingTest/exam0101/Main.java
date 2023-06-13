@@ -1,8 +1,9 @@
-package com.codingTest.inflearn.exam0101;
+package com.codingTest.exam0101;
 
 import java.io.IOException;
 import java.util.Scanner;
 
+//for문
 public class Main {
 	public static void main(String[] args) throws IOException {
 
@@ -28,3 +29,4 @@ public class Main {
 	}
 
 }
+

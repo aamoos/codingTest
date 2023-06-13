@@ -1,8 +1,9 @@
-package com.codingTest.inflearn.exam0102;
+package com.codingTest.exam0102;
 
 import java.io.IOException;
 import java.util.Scanner;
 
+// for문
 public class Main {
 	public static void main(String[] args) throws IOException {
 

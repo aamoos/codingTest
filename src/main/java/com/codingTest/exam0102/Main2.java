@@ -3,6 +3,7 @@ package com.codingTest.exam0102;
 import java.io.IOException;
 import java.util.Scanner;
 
+// 아스키 코드
 public class Main2 {
 	public static void main(String[] args) throws IOException {
 
