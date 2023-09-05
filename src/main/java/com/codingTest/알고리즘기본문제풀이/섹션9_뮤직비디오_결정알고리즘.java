@@ -3,7 +3,7 @@ package com.codingTest.알고리즘기본문제풀이;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class 섹션_뮤직비디오_결정알고리즘 {
+public class 섹션9_뮤직비디오_결정알고리즘 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
