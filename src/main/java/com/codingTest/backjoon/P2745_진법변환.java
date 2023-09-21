@@ -16,9 +16,16 @@ public class P2745_진법변환 {
             char c = s.charAt(i);
 
             if('A' <= c && c <= 'Z'){
+<<<<<<< HEAD
                 ans += (c-'A'+10) * tmp;
             }else{
                 ans += (c-'0') * tmp;
+=======
+                //90-65+10
+                ans += (c - 'A' + 10) * tmp;
+            }else{
+                ans += (c - '0') * tmp;
+>>>>>>> origin/master
             }
             tmp *= N;
         }
