@@ -6,24 +6,29 @@ import java.io.InputStreamReader;
 
 /**
  * packageName    : com.codingTest.backjoon2023.step2
- * fileName       : P3
+ * fileName       : P4
  * author         : 김재성
- * date           : 2023-12-26
+ * date           : 2023-12-28
  * description    :
  * ===========================================================
  * DATE              AUTHOR             NOTE
  * -----------------------------------------------------------
- * 2023-12-26        김재성       최초 생성
+ * 2023-12-28        김재성       최초 생성
  */
-public class P3 {
+public class P4 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(br.readLine());
-        boolean flag = true;
-        if(N % 4 == 0 && (N % 100 != 0 || N % 400 == 0)){
+        int A = Integer.parseInt(br.readLine());
+        int B = Integer.parseInt(br.readLine());
+
+        if(A > 0 && B > 0){
             System.out.println(1);
-        }else{
-            System.out.println(0);
+        }else if(A < 0 && B > 0){
+            System.out.println(2);
+        }else if(A < 0 && B < 0){
+            System.out.println(3);
+        }else if(A > 0 && B < 0){
+            System.out.println(4);
         }
     }
 }
