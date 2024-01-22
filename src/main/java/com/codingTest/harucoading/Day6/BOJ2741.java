@@ -1,13 +1,13 @@
-package com.codingTest.boj.Day3;
+package com.codingTest.harucoading.Day6;
 
 import java.util.Scanner;
 
-public class BOJ2739 {
+public class BOJ2741 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int N = scan.nextInt();
-        for(int i=1; i<=9; i++){
-            System.out.println(N+" * "+i+" = "+(N*i));
+        for(int i=1; i<=N; i++){
+            System.out.println(i);
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.codingTest.boj.Day2;
+package com.codingTest.harucoading.Day2;
 
 import java.util.Scanner;
 

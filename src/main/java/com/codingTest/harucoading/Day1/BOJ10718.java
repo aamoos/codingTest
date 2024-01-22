@@ -1,4 +1,4 @@
-package com.codingTest.boj.Day1;
+package com.codingTest.harucoading.Day1;
 
 public class BOJ10718 {
     public static void main(String[] args) {
