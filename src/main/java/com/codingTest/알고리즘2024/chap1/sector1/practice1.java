@@ -1,4 +1,4 @@
-package com.codingTest.알고리즘2024.chap1;
+package com.codingTest.알고리즘2024.chap1.sector1;
 
 import java.util.Scanner;
 
