@@ -2,7 +2,7 @@ package com.codingTest.알고리즘2024.chap1.sector1;
 
 import java.util.Scanner;
 
-public class practice7 {
+public class P7 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String str = scan.next();

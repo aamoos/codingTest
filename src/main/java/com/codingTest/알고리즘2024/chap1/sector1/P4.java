@@ -3,7 +3,7 @@ package com.codingTest.알고리즘2024.chap1.sector1;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class practice4 {
+public class P4 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
