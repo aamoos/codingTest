@@ -22,7 +22,7 @@ public class BOJ25501 {
                 System.out.println(1+" "+index);
             }else{
                 System.out.println(0+" "+index);
-            }
+             }
         }
     }
 }
