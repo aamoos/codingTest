@@ -17,7 +17,7 @@ public class BOJ11005 {
         }else{
             int cnt = 0;
             double temp = B;
-            while(N > temp){
+            while(N >= temp){
                 temp = Math.pow(B, ++cnt);
             }// B진법으로 표현하였을때 몇자리수로 표현되는지 계산하기
 
